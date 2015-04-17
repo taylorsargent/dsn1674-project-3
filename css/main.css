@@ -85,3 +85,16 @@ p {
   text-align: left;
   padding-left: 0.5em;
 }
+
+.location {
+  text-align: center;
+}
+
+.hours {
+  text-align: center;
+}
+
+.footer {
+  background-color: #bad7dd;
+  padding: 2em;
+}
