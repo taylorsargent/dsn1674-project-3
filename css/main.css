@@ -13,8 +13,26 @@ body {
   padding: 0;
 }
 
-.banner-img {
-  width: 100%;
+.header {
+  background-color: #bad7dd;
+  margin: 0;
+  padding: 1em;
+}
+
+.banner-head {
+  color: white;
+  font-family: 'Poiret One', cursive;
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, transparent, black), url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 0.25em;
+  padding-top: 3.5em;
 }
 
 .drinks {
@@ -25,6 +43,6 @@ body {
   width: 100%;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Poiret One', cursive;
 }
