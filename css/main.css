@@ -97,4 +97,16 @@ p {
 .footer {
   background-color: #bad7dd;
   padding: 2em;
+  text-align: center;
+}
+
+.toplink {
+  background-image: url(../images/triangle.svg);
+  background-size: 50px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 100px;
+  padding-top: 50px;
+  text-align: center;
 }
