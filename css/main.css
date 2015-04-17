@@ -15,13 +15,18 @@ body {
 
 .header {
   position: relative;
+  background-image: url(../images/texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
   font-family: 'Poiret One', cursive;
   font-size: 4em;
   background-color: #bad7dd;
-  padding: 0.5em;
+  opacity: 0.75;
+  padding: 0;
   margin: 0;
 }
 
@@ -56,9 +61,9 @@ h1 {
 .friday {
   width: 50%;
   float: left;
-  padding-right: 0.25em;
+  padding-right: 1em;
   padding-bottom: 1em;
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 
 .drink {
@@ -86,7 +91,7 @@ h1 {
 h4 {
   color: white;
   font-family: 'Poiret One', cursive;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 p {
@@ -95,6 +100,7 @@ p {
   line-height: 1.5em;
   text-align: left;
   padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .location {
@@ -157,7 +163,7 @@ a:hover {
 
 .nav {
   margin: 0;
-  padding: 0;
+  padding: 0.25em;
   list-style-type: none;
   background-color: white;
   display: none;
@@ -169,8 +175,8 @@ a:hover {
 
 .nav a {
   display: block;
-  padding: 0.5em;
-  text-decortation: none;
+  padding: 1em;
+  text-decoration: none;
   color: black;
 }
 
@@ -218,4 +224,8 @@ a:hover {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.map:hover {
+  color: #bad7dd;
 }
