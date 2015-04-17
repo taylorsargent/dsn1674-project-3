@@ -23,7 +23,6 @@ h1 {
   background-color: #bad7dd;
   padding: 0.5em;
   margin: 0;
-  border: 3px white solid;
 }
 
 .banner-head {
@@ -195,15 +194,28 @@ a:hover {
   width: 40px;
   display: inline-block;
   position: absolute;
+  padding-bottom: 5px;
   right: 0;
-  bottom: 1em;
+  bottom: 0;
 }
 
-.nav-checked:checked ~ .nav-label {
+.nav-check:checked ~ .nav-label {
   background-color: white;
 }
 
-.nav-label img {
+.nav-open, .nav-close {
   display: block;
   width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }

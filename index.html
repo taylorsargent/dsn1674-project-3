@@ -14,12 +14,15 @@
   <h1 id="top"> Quitters </h1>
   <nav>
     <input type="checkbox" class="nav-check" id="nav-check">
-    <label class="nav-label" for="nav-check"> <img src="images/toggle-bar.svg" alt="toggle bar"></label>
+    <label class="nav-label" for="nav-check">
+      <img class="nav-open" src="images/toggle-bar.svg" alt="toggle bar">
+      <img class="nav-close" src="images/close-toggle.svg" alt="close toggle bar">
+      </label>
     <ul class="nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
   </nav>
 </div>
@@ -34,13 +37,13 @@
   <p> NOW OPEN! Our beer menu will update week to week and we offer a small but
     well curated selection of red and white wines. Come enjoy a night off! </p>
 
-  <h3 class="title">About Us</h3>
+  <h3 class="title" id="about">About Us</h3>
   <img class="about" src="images/about-us.jpg" alt="three people at work">
     <p> Small local coffee shop located in the heart of Stittsville.
       Owned by Kathleen Edwards, a former musician who quit the music industry to re-discover her happiness.
       This shop is otherwise known as <i>the happiness project</i></p>
 
-  <h3 class="title">Menu</h3>
+  <h3 class="title" id="menu">Menu</h3>
 
 <div class="drink">
   <h4> Drinks </h4>
@@ -52,7 +55,7 @@
 </div>
 <p> Want something sweet? We offer a varitey of sweet treats like brownies, cookies and scones. We also have three different types of sandwhichs you can enjoy all day long. </p>
 
-  <h3 class="title"> Contact Us </h3>
+  <h3 class="title" id="contact"> Contact Us </h3>
   <img class="contact" src="images/contact.jpg" alt="chairs in a row">
   <p class="location"> 1523 Stittsville Main St. </p>
   <p class="hours"> Mon - Thu:	7:00 am - 5:00 pm </p>
