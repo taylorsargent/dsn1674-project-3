@@ -96,7 +96,7 @@ p {
 
 .footer {
   background-color: #bad7dd;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
 }
 
@@ -109,4 +109,20 @@ p {
   width: 100px;
   padding-top: 50px;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 1em;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.foot-note {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
 }
