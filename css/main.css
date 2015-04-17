@@ -40,10 +40,19 @@ body {
   font-family: 'Poiret One', cursive;
   background-color: #bad7dd;
   padding: 0.15em;
+  clear: both;
 }
 
 .about {
   width: 100%;
+}
+
+.friday {
+  width: 50%;
+  float: left;
+  padding-right: 0.25em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
 }
 
 .drink {
@@ -125,4 +134,8 @@ a:hover {
 .foot-note {
   text-align: center;
   font-family: 'Poiret One', cursive;
+}
+
+.contact {
+  width: 100%;
 }
