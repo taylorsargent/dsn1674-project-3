@@ -35,6 +35,13 @@ body {
   padding-top: 3.5em;
 }
 
+.title {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  background-color: #bad7dd;
+  padding: 0.15em;
+}
+
 .drinks {
   width: 100%;
 }
@@ -45,4 +52,12 @@ body {
 
 h1 {
   font-family: 'Poiret One', cursive;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 1em;
+  line-length: 1.5em;
+  text-align: left;
+  padding-left: 0.5em;
 }
